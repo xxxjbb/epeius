@@ -1,7 +1,7 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
 let password = 'auto';
-let proxyIP = '';
+let proxyIP = ['1.1818.pp.ua', 'cmcc.34310889.xyz','q.achen.link','acjp.cloudflarest.link','dd.hza1128.top','hk.rweek.top','youx.yituw.link','1219.918518.xyz','hkcf.sky2005.link'];
 
 let addresses = [
 	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
